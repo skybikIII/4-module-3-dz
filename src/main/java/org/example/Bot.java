@@ -198,7 +198,7 @@ public class Bot extends TelegramLongPollingBot {
         } else {
             SendMessage sendMessage = new SendMessage();
             sendMessage.setChatId(chatId);
-            sendMessage.setText("Мы конечно можем долго болтать, но пожалуйста отправьте фото и я наложу на него фильтр");
+            sendMessage.setText("РњС‹ РєРѕРЅРµС‡РЅРѕ РјРѕР¶РµРј РґРѕР»РіРѕ Р±РѕР»С‚Р°С‚СЊ, РЅРѕ РїРѕР¶Р°Р»СѓР№СЃС‚Р° РѕС‚РїСЂР°РІСЊС‚Рµ С„РѕС‚Рѕ Рё СЏ РЅР°Р»РѕР¶Сѓ РЅР° РЅРµРіРѕ С„РёР»СЊС‚СЂ");
             return sendMessage;
         }
         return null;
@@ -218,7 +218,7 @@ public class Bot extends TelegramLongPollingBot {
         SendMessage sendMessage = new SendMessage();
         sendMessage.setReplyMarkup(replyKeyboardMarkup);
         sendMessage.setChatId(chatId);
-        sendMessage.setText("Выберите фильтр");
+        sendMessage.setText("Р’С‹Р±РµСЂРёС‚Рµ С„РёР»СЊС‚СЂ");
         return sendMessage;
     }
 }
