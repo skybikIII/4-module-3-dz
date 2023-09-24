@@ -3,16 +3,16 @@ package org.example.commands;
 public class BotCommonCommands {
     @AppBotCommand(name = "/hello", description = "qwe", showInHelp = true)
     String hello() {
-        return "Привет, друг!";
+        return "РџСЂРёРІРµС‚, РґСЂСѓРі!";
 }
 
     @AppBotCommand(name = "/bye", description = "qwe", showInHelp = true)
     String bye() {
-        return "Ты уже уходишь? Как жаль... Буду ждать :(";
+        return "РўС‹ СѓР¶Рµ СѓС…РѕРґРёС€СЊ? РљР°Рє Р¶Р°Р»СЊ... Р‘СѓРґСѓ Р¶РґР°С‚СЊ :(";
     }
 
     @AppBotCommand(name = "/help", description = "qwe", showInKeyBoard = true)
     String help() {
-        return "Вы воспользовались командой /help, скоро тут будут команды бота";
+        return "Р’С‹ РІРѕСЃРїРѕР»СЊР·РѕРІР°Р»РёСЃСЊ РєРѕРјР°РЅРґРѕР№ /help, СЃРєРѕСЂРѕ С‚СѓС‚ Р±СѓРґСѓС‚ РєРѕРјР°РЅРґС‹ Р±РѕС‚Р°";
     }
 }
